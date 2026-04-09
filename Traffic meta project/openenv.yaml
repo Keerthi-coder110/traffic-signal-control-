@@ -1,0 +1,22 @@
+name: traffic-signal-control
+version: 1.0.0
+description: Incident-resilient traffic signal control using reinforcement learning
+author: Meta Hackathon Team
+tags:
+  - openenv
+  - traffic-control
+  - reinforcement-learning
+  - resilience
+environment:
+  type: traffic-signal
+  framework: openenv
+tasks:
+  - name: easy_single_intersection
+    difficulty: easy
+    description: Control a single intersection with minimal disruptions
+  - name: medium_multi_intersection
+    difficulty: medium
+    description: Control multiple intersections with moderate disruptions
+  - name: hard_network_resilience
+    difficulty: hard
+    description: Manage a network under severe disruptions
